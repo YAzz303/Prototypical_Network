@@ -14,7 +14,7 @@ def reorganize_dataset(src_dir, dst_root):
     os.makedirs(os.path.join(dst_root, 'test'), exist_ok=True)
     
     # Define which prefixes go to train vs test
-    train_prefixes = ['bhujimol', 'brahmi', 'kirat', 'lichhavi']
+    train_prefixes = ['bhujimol', 'brahmi', 'kirat', 'lichhavi','nandanagiri']
     test_prefixes = ['maithili', 'tibetan']  # Add your test script prefixes here
     
     for char_dir in tqdm(os.listdir(src_dir)):
@@ -34,6 +34,6 @@ def reorganize_dataset(src_dir, dst_root):
 
 # Usage
 reorganize_dataset(
-    src_dir='dataset',  # Your current single folder dataset
+    src_dir='final_dataset/train',  # Your current single folder dataset
     dst_root='organized_dataset'  # New organized location
 )
