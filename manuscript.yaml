@@ -1,0 +1,17 @@
+path: ./dataset
+
+train: images/train
+val: images/val
+
+nc: 1
+names: ['script']
+
+augmentation:
+  # Critical for ancient scripts
+  translate: 0.05     # Small positional shifts
+  scale: 0.15         # Moderate size variation
+  shear: 0.0         # Avoid distortion (preserve script structure)
+  fliplr: 0.0        # Disable (scripts may be direction-sensitive)
+  mosaic: 0.1        # Helps model learn contextual relationships
+  mixup: 0.0         # Mild blending to simulate overlapping ink
+  copy_paste: 0.0    # Paste extra chars to mimic crowded manuscripts

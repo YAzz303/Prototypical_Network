@@ -2,3 +2,5 @@ dataset/
 data/
 organized_dataset/
 val/
+template_dataset/
+augmentaion_view.py
