@@ -1,0 +1,82 @@
+[
+  {
+    "bbox": [
+      356,
+      2901,
+      986,
+      3669
+    ],
+    "class": "maithili_dhaa",
+    "confidence": 0.783909797668457
+  },
+  {
+    "bbox": [
+      1940,
+      1978,
+      2514,
+      2623
+    ],
+    "class": "maithili_dhaa",
+    "confidence": 0.7820929288864136
+  },
+  {
+    "bbox": [
+      362,
+      2105,
+      949,
+      2780
+    ],
+    "class": "maithili_dhaa",
+    "confidence": 0.7353273034095764
+  },
+  {
+    "bbox": [
+      1782,
+      2976,
+      2371,
+      3730
+    ],
+    "class": "tibetan-gha",
+    "confidence": 0.6952860951423645
+  },
+  {
+    "bbox": [
+      1036,
+      1497,
+      1461,
+      1998
+    ],
+    "class": "maithili_dhaa",
+    "confidence": 0.6769716143608093
+  },
+  {
+    "bbox": [
+      355,
+      755,
+      923,
+      1412
+    ],
+    "class": "maithili_dhaa",
+    "confidence": 0.6060196757316589
+  },
+  {
+    "bbox": [
+      1802,
+      137,
+      2373,
+      953
+    ],
+    "class": "maithili_dhaa",
+    "confidence": 0.5160274505615234
+  },
+  {
+    "bbox": [
+      1989,
+      1140,
+      2676,
+      1898
+    ],
+    "class": "maithili_dhaa",
+    "confidence": 0.3819446563720703
+  }
+]
